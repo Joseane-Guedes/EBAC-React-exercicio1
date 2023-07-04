@@ -15,12 +15,16 @@ shape3.textContent = 'Hello World - Forma 3';
 document.getElementById('container').appendChild(shape3);
 
 // Forma 4: Utilizando um span
-var shape4 = document.createElement('span');
+let shape4 = document.createElement('span');
 shape4.textContent = 'Hello World - Forma 4';
 document.getElementById('container').appendChild(shape4);
 
 // Forma 5: Utilizando um elemento de lista li
-var shape5 = document.createElement('li');
+let shape5 = document.createElement('li');
 shape5.textContent = 'Hello World - Forma 5';
 document.getElementById('container').appendChild(shape5);
 
+// Forma 6: Utilizando um botão
+let shape6 = document.createElement('button');
+shape6.textContent = 'Hello World - Forma 6';
+document.getElementById('container').appendChild(shape6);
