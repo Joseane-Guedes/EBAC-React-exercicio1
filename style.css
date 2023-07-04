@@ -8,4 +8,5 @@
     align-items: center;
     font-family: Arial, sans-serif;
     font-weight: bold;
+    flex-direction: column;
   }
