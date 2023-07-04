@@ -28,3 +28,9 @@ document.getElementById('container').appendChild(shape5);
 let shape6 = document.createElement('button');
 shape6.textContent = 'Hello World - Forma 6';
 document.getElementById('container').appendChild(shape6);
+
+// Forma 7: Utilizando um elemento de link a
+let shape7 = document.createElement('a');
+shape7.href = '#';
+shape7.textContent = 'Hello World - Forma 7';
+document.getElementById('container').appendChild(shape7);
