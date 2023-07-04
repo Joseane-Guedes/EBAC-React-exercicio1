@@ -44,3 +44,8 @@ document.getElementById('container').appendChild(shape8);
 let shape9 = document.createElement('u');
 shape9.textContent = 'Hello World - Forma 9';
 document.getElementById('container').appendChild(shape9);
+
+// Forma 10: Utilizando um elemento de ênfase em
+let shape10 = document.createElement('em');
+shape10.textContent = 'Hello World - Forma 10';
+document.getElementById('container').appendChild(shape10);
