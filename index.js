@@ -36,6 +36,11 @@ shape7.textContent = 'Hello World - Forma 7';
 document.getElementById('container').appendChild(shape7);
 
 // Forma 8: Utilizando um elemento de título h2
-var shape8 = document.createElement('h2');
+let shape8 = document.createElement('h2');
 shape8.textContent = 'Hello World - Forma 8';
 document.getElementById('container').appendChild(shape8);
+
+// Forma 9: Utilizando um elemento de sublinhado u
+let shape9 = document.createElement('u');
+shape9.textContent = 'Hello World - Forma 9';
+document.getElementById('container').appendChild(shape9);
