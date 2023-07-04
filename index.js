@@ -19,3 +19,8 @@ var shape4 = document.createElement('span');
 shape4.textContent = 'Hello World - Forma 4';
 document.getElementById('container').appendChild(shape4);
 
+// Forma 5: Utilizando um elemento de lista li
+var shape5 = document.createElement('li');
+shape5.textContent = 'Hello World - Forma 5';
+document.getElementById('container').appendChild(shape5);
+
