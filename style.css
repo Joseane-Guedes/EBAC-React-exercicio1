@@ -2,11 +2,28 @@
     width: 200px;
     height: 50px;
     background-color: lightblue;
-    margin-bottom: 10px;
+    margin: 10px 10px ;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
     font-weight: bold;
     flex-direction: column;
+    padding: 10px 10px;
   }
+
+  .shape1 {
+    background-color: lightpink;
+}
+
+.shape6 {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.shape9 {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: flex-start;
+}

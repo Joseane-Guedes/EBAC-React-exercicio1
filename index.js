@@ -1,8 +1,8 @@
-// Forma 1: Utilizando uma div com texto simples
 let shape1 = document.createElement('div');
-shape1.className = 'shape';
+shape1.classList.add('shape', 'shape1'); // Usamos classList.add() para adicionar múltiplas classes
 shape1.textContent = 'Hello World - Forma 1';
 document.getElementById('container').appendChild(shape1);
+
 
 // Forma 2: Utilizando um elemento de cabeçalho h1
 let shape2 = document.createElement('h1');
@@ -26,6 +26,7 @@ document.getElementById('container').appendChild(shape5);
 
 // Forma 6: Utilizando um botão
 let shape6 = document.createElement('button');
+shape6.classList.add('shape6'); // Usamos classList.add() para adicionar múltiplas classes
 shape6.textContent = 'Hello World - Forma 6';
 document.getElementById('container').appendChild(shape6);
 
@@ -42,6 +43,7 @@ document.getElementById('container').appendChild(shape8);
 
 // Forma 9: Utilizando um elemento de sublinhado u
 let shape9 = document.createElement('u');
+shape9.classList.add('shape9');
 shape9.textContent = 'Hello World - Forma 9';
 document.getElementById('container').appendChild(shape9);
 
